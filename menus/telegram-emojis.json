@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle Telegram Emojis",
+        "command": "telegram-emojis:bind"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Telegram Emojis",
+          "submenu": [
+            {
+              "label": "Bind",
+              "command": "telegram-emojis:bind"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
