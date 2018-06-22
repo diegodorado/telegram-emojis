@@ -2,8 +2,19 @@
 // Less files with the name `*.atom-text-editor.less` will be loaded into the text-editor!
 
 .highlight-green .region {
-  background-color: aqua;
-  font-size: 2em;
-  border: 1px dashed white;
-  padding: 20px;
+  animation: rainbow 4s steps(36) infinite,almostFade 0.44s infinite alternate;
+  background: #EE7752;
+}
+
+@keyframes rainbow {
+ from {
+      filter:hue-rotate(0deg);
+    }
+  to {
+      filter:hue-rotate(360deg);
+    }
+}
+
+@keyframes almostFade {
+  from { opacity: 0.45; }
 }

@@ -11,7 +11,6 @@ ab ss = s (fromString $ concatMap (\x ->
   else [x]) ss)
 
 
-
 TELEGRAMEAME a @tidalfun_bot
   con estos emoticones
     💚✊💪👭💖🌈😻
@@ -21,7 +20,4 @@ TELEGRAMEAME a @tidalfun_bot
       [💚 ✊,💖*4]
 
 
-
 d1 $ ab "[💚 ✊,💖*4]"
-
-d2 $  s "fm:0/8"
